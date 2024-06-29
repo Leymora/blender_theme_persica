@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "theme_persica"
+version = "1.0.0"
+name = "Persica"
+tagline = "Muted pastel colors comes to Blender"
+maintainer = "Vilhelm Hansson"
+# Supported types: "add-on", "theme"
+type = "theme"
+
+blender_version_min = "4.2.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
